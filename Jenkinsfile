@@ -21,7 +21,7 @@ pipeline {
         stage('Run Docker Compose') {
             steps {
                 dir('/var/lib/jenkins/DevOps/app/') {
-                    sh 'docker-compose -p myapp up -d'
+                    sh 'docker compose -p myapp up -d'
                 }
             }
         }
