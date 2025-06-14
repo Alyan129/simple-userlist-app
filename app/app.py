@@ -23,4 +23,4 @@ if __name__ == '__main__':
     conn = get_db_connection()
     conn.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT)')
     conn.close()
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=4000)
