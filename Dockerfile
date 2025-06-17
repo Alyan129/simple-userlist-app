@@ -9,11 +9,9 @@ RUN apt-get update && apt-get install -y \
     xvfb \
     libnss3 \
     libxss1 \
-    libappindicator1 \
-    libindicator7 \
     fonts-liberation \
-    libgbm-dev \
     libasound2 \
+    libgbm1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Add Google Chrome repository and key
